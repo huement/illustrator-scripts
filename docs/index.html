@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Swatch Scripts - FREE Version - Installation Guide</title>
+    <meta name="description" content="FREE version of AI Swatch Scripts. Professional color workflow tools for Adobe Illustrator. Get started with Swatch Legend for free!">
+    <meta name="keywords" content="Adobe Illustrator, color swatches, color export, design tools, color palette, illustrator scripts, jsx scripts">
+    <meta name="author" content="Huement">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://huement.github.io/illustrator-scripts/">
+    <meta property="og:title" content="AI Swatch Scripts - Professional Color Tools for Adobe Illustrator">
+    <meta property="og:description" content="Professional color workflow tools for Adobe Illustrator. Export swatches, generate color legends, create tints and shades, and more.">
+    <meta property="og:image" content="swatch-shades.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://huement.github.io/illustrator-scripts/">
+    <meta property="twitter:title" content="AI Swatch Scripts - Professional Color Tools for Adobe Illustrator">
+    <meta property="twitter:description" content="Professional color workflow tools for Adobe Illustrator. Export swatches, generate color legends, create tints and shades, and more.">
+    <meta property="twitter:image" content="swatch-shades.png">
+    
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" href="favicon.ico">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+        }
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 3rem 0;
+            margin-bottom: 3rem;
+        }
+        .code-block {
+            background-color: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 4px;
+        }
+        .os-section {
+            margin: 3rem 0;
+        }
+        .step-number {
+            background: #667eea;
+            color: white;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin-right: 1rem;
+        }
+        .img-placeholder {
+            background-color: #e9ecef;
+            border: 2px dashed #adb5bd;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+        }
+        .color-sample {
+            background: white;
+            border: 1px solid #dee2e6;
+            padding: 1rem;
+            border-radius: 4px;
+            font-family: monospace;
+            line-height: 1.8;
+        }
+        .alert-tip {
+            background-color: #d1ecf1;
+            border-left: 4px solid #0dcaf0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="container">
+            <h1 class="display-4 fw-bold">AI Swatch Scripts - FREE Version</h1>
+            <p class="lead fs-5">A Huement Original</p>
+            <p class="lead">Professional color workflow tools for Adobe Illustrator</p>
+            <p class="mb-0">Installation guide for macOS and Windows</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Upgrade Banner -->
+        <div class="alert alert-warning border-warning shadow-sm mt-4" role="alert" style="border-width: 3px;">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <h4 class="alert-heading mb-2">🚀 Want All Features?</h4>
+                    <p class="mb-2">This is the <strong>FREE version</strong> with limited features. Upgrade to get all 4 scripts + 2 templates!</p>
+                    <ul class="mb-0 small">
+                        <li><strong>FREE:</strong> Swatch Legend + 1 Template</li>
+                        <li><strong>FULL:</strong> Legend + Shades + Export + Transfer + 2 Templates</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 text-lg-end mt-3 mt-lg-0">
+                    <a href="https://huementsoftware.gumroad.com/l/aiscripts" class="btn btn-primary btn-lg" target="_blank" rel="noopener">
+                        Get Full Version - $3+
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Featured Showcase Image -->
+        <div class="text-center my-5">
+            <p class="text-muted mb-3"><strong>Full Version Preview:</strong></p>
+            <a href="https://huementsoftware.gumroad.com/l/aiscripts" target="_blank" rel="noopener">
+                <img src="paid-preview-image.jpg" alt="AI Swatch Scripts - Full Version with all features" class="img-fluid rounded shadow-lg" style="max-width: 100%; border: 3px solid #ffc107; cursor: pointer;">
+            </a>
+            <p class="text-muted mt-2 small">Click to view full version on Gumroad - Starting at $3+</p>
+        </div>
+
+        <!-- Overview Section -->
+        <section class="mb-5">
+            <h2 class="mb-4">What's in the FREE Version?</h2>
+            <p class="lead">This FREE version gives you a taste of professional color workflow automation in Adobe Illustrator.</p>
+            
+            <div class="row mt-4">
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 border-success" style="border-width: 3px;">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start">
+                                <h5 class="card-title">🎨 Swatch Legend</h5>
+                                <span class="badge bg-success">✓ INCLUDED</span>
+                            </div>
+                            <p class="card-text">Generate professional color legend grids with detailed color information.</p>
+                            <ul class="small">
+                                <li>HEX, RGB, CMYK, LAB values</li>
+                                <li>Automatic color naming (27,000+ names)</li>
+                                <li>Sort by hue</li>
+                                <li>Customizable borders</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 border-success" style="border-width: 3px;">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start">
+                                <h5 class="card-title">📋 Palette Template V2</h5>
+                                <span class="badge bg-success">✓ INCLUDED</span>
+                            </div>
+                            <p class="card-text">Professional extended color palette template ready to use.</p>
+                            <ul class="small">
+                                <li>Bootstrap-compatible colors</li>
+                                <li>Hover state variations</li>
+                                <li>Complete grayscale palette</li>
+                                <li>Pre-built gradient swatches</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Paid Features Section -->
+            <div class="alert alert-light border mt-4 p-4">
+                <h4 class="mb-3">🔒 Available in Full Version Only</h4>
+                <p class="mb-3">Upgrade to unlock these powerful features: <a href="https://huementsoftware.gumroad.com/l/aiscripts" class="fw-bold" target="_blank">Get Full Version →</a></p>
+                
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <div class="card h-100 bg-light">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <h6 class="card-title">🎨 Swatch Shades</h6>
+                                    <span class="badge bg-warning text-dark">PAID</span>
+                                </div>
+                                <p class="card-text small">Generate tints and shades automatically with 5 lighter + 5 darker variations.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 mb-3">
+                        <div class="card h-100 bg-light">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <h6 class="card-title">💾 Swatch Export</h6>
+                                    <span class="badge bg-warning text-dark">PAID</span>
+                                </div>
+                                <p class="card-text small">Export to JSON, SCSS, LESS, CSS Variables in HEX, RGB, RGBA, HSL formats.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 mb-3">
+                        <div class="card h-100 bg-light">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <h6 class="card-title">🔄 Swatch Transfer</h6>
+                                    <span class="badge bg-warning text-dark">PAID</span>
+                                </div>
+                                <p class="card-text small">Transfer swatches between documents with batch support and group preservation.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row mt-3">
+                    <div class="col-md-6">
+                        <div class="card h-100 bg-light">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <h6 class="card-title">📋 Palette Template V1</h6>
+                                    <span class="badge bg-warning text-dark">PAID</span>
+                                </div>
+                                <p class="card-text small">Classic Bootstrap color palette template.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="my-5">
+
+        <!-- macOS Installation -->
+        <section class="os-section" id="macos">
+            <div class="d-flex align-items-center mb-4">
+                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M35.5 24.5c0-5.5 4.5-8.5 4.7-8.6-2.6-3.7-6.5-4.2-7.9-4.3-3.3-.3-6.5 2-8.2 2-1.7 0-4.4-1.9-7.2-1.9-3.7.1-7.1 2.2-9 5.5-3.8 6.7-.9 16.6 2.8 22 1.8 2.6 3.9 5.5 6.7 5.4 2.7-.1 3.7-1.7 7-1.7s4.2 1.7 7 1.7c2.9-.1 4.7-2.6 6.5-5.3 2-3.1 2.8-6.1 2.9-6.2-.1-.1-5.6-2.1-5.6-8.6z" fill="#000"/>
+                    <path d="M30.5 8.5c1.5-1.8 2.5-4.3 2.2-6.8-2.1.1-4.7 1.4-6.2 3.2-1.3 1.6-2.5 4.1-2.2 6.5 2.3.2 4.7-1.2 6.2-2.9z" fill="#000"/>
+                </svg>
+                <h2 class="ms-3 mb-0">Installation on macOS</h2>
+            </div>
+
+            <div class="alert alert-tip" role="alert">
+                <strong>💡 Tip:</strong> You'll need to locate your Adobe Illustrator Scripts folder. The path may vary slightly depending on your version of Illustrator.
+            </div>
+
+            <!-- Step 1 -->
+            <div class="card mb-4">
+                <div class="card-body">
+                    <div class="d-flex align-items-start">
+                        <span class="step-number">1</span>
+                        <div>
+                            <h5 class="card-title">Locate the Scripts Folder</h5>
+                            <p>Navigate to your Adobe Illustrator Scripts folder using Finder:</p>
+                            <div class="code-block">
+                                <code>/Applications/Adobe Illustrator [VERSION]/Presets/[LANGUAGE]/Scripts/</code>
+                            </div>
+                            <p class="mb-0 mt-2"><small class="text-muted">Example: <code>/Applications/Adobe Illustrator 2024/Presets/en_US/Scripts/</code></small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <img src="export-macos.png" alt="Finder window showing Scripts folder location" class="img-fluid rounded shadow" style="margin: 1.5rem 0;">
+
+            <!-- Step 2 -->
+            <div class="card mb-4">
+                <div class="card-body">
+                    <div class="d-flex align-items-start">
+                        <span class="step-number">2</span>
+                        <div>
+                            <h5 class="card-title">Copy Script Files (FREE Version)</h5>
+                            <p>Copy these files from the <code>Scripts/</code> folder into your Illustrator Scripts folder:</p>
+                            <ul>
+                                <li><code>SwatchLegend.jsx</code> <span class="badge bg-success">FREE</span></li>
+                                <li><code>colornames.min.json</code> <span class="badge bg-warning text-dark">Required</span></li>
+                            </ul>
+                            <div class="alert alert-info" role="alert">
+                                <strong>⚠️ Important:</strong> The <code>colornames.min.json</code> file must be in the same folder as the script for the color naming feature to work.
+                            </div>
+                            <div class="alert alert-warning" role="alert">
+                                <strong>🔒 Want more scripts?</strong> The full version includes <code>SwatchShades.jsx</code>, <code>SwatchExport.jsx</code>, and <code>SwatchTransfer.jsx</code>. <a href="https://huementsoftware.gumroad.com/l/aiscripts" class="alert-link fw-bold" target="_blank">Get Full Version →</a>
+                            </div>
+                            <p class="mb-0"><strong>Alternative method:</strong> You can also place the scripts in your user Scripts folder:</p>
+                            <div class="code-block mt-2">
+                                <code>~/Library/Application Support/Adobe/Adobe Illustrator [VERSION]/[LANGUAGE]/Scripts/</code>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <img src="export-macos.png" alt="Script files in Scripts folder" class="img-fluid rounded shadow" style="margin: 1.5rem 0;">
+
+            <!-- Step 3 -->
+            <div class="card mb-4">
+                <div class="card-body">
+                    <div class="d-flex align-items-start">
+                        <span class="step-number">3</span>
+                        <div>
+                            <h5 class="card-title">Restart Adobe Illustrator</h5>
+                            <p class="mb-0">Close and reopen Adobe Illustrator for the script to appear in the menu.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 4 -->
+            <div class="card mb-4">
+                <div class="card-body">
+                    <div class="d-flex align-items-start">
+                        <span class="step-number">4</span>
+                        <div>
+                            <h5 class="card-title">Access the Script (FREE Version)</h5>
+                            <p>In Illustrator, go to <strong>File → Scripts</strong> and you'll see:</p>
+                            <ul>
+                                <li><strong>SwatchLegend</strong> <span class="badge bg-success">FREE</span> - Generate color legend grids</li>
+                            </ul>
+                            <div class="alert alert-light border mt-3">
+                                <p class="mb-2"><strong>Full version also includes:</strong></p>
+                                <ul class="text-muted mb-2">
+                                    <li><strong>SwatchShades</strong> 🔒 - Generate tints and shades</li>
+                                    <li><strong>SwatchExport</strong> 🔒 - Export colors to files</li>
+                                    <li><strong>SwatchTransfer</strong> 🔒 - Transfer between documents</li>
+                                </ul>
+                                <a href="https://huementsoftware.gumroad.com/l/aiscripts" class="btn btn-sm btn-warning" target="_blank">Upgrade to unlock all →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <img src="swatch-legend.png" alt="Illustrator menu File → Scripts showing Swatch Legend" class="img-fluid rounded shadow" style="margin: 1.5rem 0;">
+        </section>
+
+        <hr class="my-5">
+
+        <!-- Windows Installation -->
+        <section class="os-section" id="windows">
+            <div class="d-flex align-items-center mb-4">
+                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6 6h16v16H6V6zm20 0h16v16H26V6zM6 26h16v16H6V26zm20 0h16v16H26V26z" fill="#00A4EF"/>
+                </svg>
+                <h2 class="ms-3 mb-0">Installation on Windows</h2>
+            </div>
+
+            <div class="alert alert-tip" role="alert">
+                <strong>💡 Tip:</strong> You may need to show hidden files and folders to navigate to the Adobe application folder.
+            </div>
+
+            <!-- Step 1 -->
+            <div class="card mb-4">
+                <div class="card-body">
+                    <div class="d-flex align-items-start">
+                        <span class="step-number">1</span>
+                        <div>
+                            <h5 class="card-title">Locate the Scripts Folder</h5>
+                            <p>Navigate to your Adobe Illustrator Scripts folder using File Explorer:</p>
+                            <div class="code-block">
+                                <code>C:\Program Files\Adobe\Adobe Illustrator [VERSION]\Presets\[LANGUAGE]\Scripts\</code>
+                            </div>
+                            <p class="mb-0 mt-2"><small class="text-muted">Example: <code>C:\Program Files\Adobe\Adobe Illustrator 2024\Presets\en_US\Scripts\</code></small></p>
+                            <p class="mt-3"><strong>Alternative user folder location:</strong></p>
+                            <div class="code-block">
+                                <code>C:\Users\[USERNAME]\AppData\Roaming\Adobe\Adobe Illustrator [VERSION]\[LANGUAGE]\Scripts\</code>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <img src="export-windows.png" alt="Windows Explorer showing Scripts folder location" class="img-fluid rounded shadow" style="margin: 1.5rem 0;">
+
+            <!-- Step 2 -->
+            <div class="card mb-4">
+                <div class="card-body">
+                    <div class="d-flex align-items-start">
+                        <span class="step-number">2</span>
+                        <div>
+                            <h5 class="card-title">Copy Script Files (FREE Version)</h5>
+                            <p>Copy these files from the <code>Scripts/</code> folder into your Illustrator Scripts folder:</p>
+                            <ul>
+                                <li><code>SwatchLegend.jsx</code> <span class="badge bg-success">FREE</span></li>
+                                <li><code>colornames.min.json</code> <span class="badge bg-warning text-dark">Required</span></li>
+                            </ul>
+                            <div class="alert alert-info" role="alert">
+                                <strong>⚠️ Important:</strong> The <code>colornames.min.json</code> file must be in the same folder as the script for the color naming feature to work.
+                            </div>
+                            <div class="alert alert-warning mt-3" role="alert">
+                                <strong>🔒 Want more scripts?</strong> The full version includes <code>SwatchShades.jsx</code>, <code>SwatchExport.jsx</code>, and <code>SwatchTransfer.jsx</code>. <a href="https://huementsoftware.gumroad.com/l/aiscripts" class="alert-link fw-bold" target="_blank">Get Full Version →</a>
+                            </div>
+                            <div class="alert alert-secondary mt-3" role="alert">
+                                <strong>⚠️ Administrator Rights:</strong> You may need administrator privileges to copy files to the Program Files folder. Right-click and select "Run as administrator" when opening File Explorer if needed.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <img src="export-windows.png" alt="Script files in Scripts folder (Windows)" class="img-fluid rounded shadow" style="margin: 1.5rem 0;">
+
+            <!-- Step 3 -->
+            <div class="card mb-4">
+                <div class="card-body">
+                    <div class="d-flex align-items-start">
+                        <span class="step-number">3</span>
+                        <div>
+                            <h5 class="card-title">Restart Adobe Illustrator</h5>
+                            <p class="mb-0">Close and reopen Adobe Illustrator for the script to appear in the menu.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 4 -->
+            <div class="card mb-4">
+                <div class="card-body">
+                    <div class="d-flex align-items-start">
+                        <span class="step-number">4</span>
+                        <div>
+                            <h5 class="card-title">Access the Script (FREE Version)</h5>
+                            <p>In Illustrator, go to <strong>File → Scripts</strong> and you'll see:</p>
+                            <ul>
+                                <li><strong>SwatchLegend</strong> <span class="badge bg-success">FREE</span> - Generate color legend grids</li>
+                            </ul>
+                            <div class="alert alert-light border mt-3">
+                                <p class="mb-2"><strong>Full version also includes:</strong></p>
+                                <ul class="text-muted mb-2">
+                                    <li><strong>SwatchShades</strong> 🔒 - Generate tints and shades</li>
+                                    <li><strong>SwatchExport</strong> 🔒 - Export colors to files</li>
+                                    <li><strong>SwatchTransfer</strong> 🔒 - Transfer between documents</li>
+                                </ul>
+                                <a href="https://huementsoftware.gumroad.com/l/aiscripts" class="btn btn-sm btn-warning" target="_blank">Upgrade to unlock all →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <img src="swatch-legend.png" alt="Illustrator menu showing Swatch Legend script" class="img-fluid rounded shadow" style="margin: 1.5rem 0;">
+        </section>
+
+        <hr class="my-5">
+
+        <!-- How to Use Section -->
+        <section class="mb-5" id="usage">
+            <h2 class="mb-4">How to Use the Scripts</h2>
+            
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-header bg-primary text-white">
+                            <h5 class="mb-0">🎨 Swatch Legend</h5>
+                        </div>
+                        <div class="card-body">
+                            <ol class="small">
+                                <li>Select swatches in Swatches panel (or none for all)</li>
+                                <li>Run <strong>File → Scripts → SwatchLegend</strong></li>
+                                <li>Choose options in dialog (HEX, RGB, CMYK, etc.)</li>
+                                <li>Click Generate</li>
+                            </ol>
+                            <p class="small mb-0"><strong>Result:</strong> Grid of color squares with detailed information</p>
+                            <img src="swatch-legend.png" alt="Swatch Legend example output" class="img-fluid rounded mt-3">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-header bg-success text-white">
+                            <h5 class="mb-0">🎨 Swatch Shades</h5>
+                        </div>
+                        <div class="card-body">
+                            <ol class="small">
+                                <li>Select swatches in Swatches panel</li>
+                                <li>Run <strong>File → Scripts → SwatchShades</strong></li>
+                                <li>Configure shading amount in dialog</li>
+                                <li>Click Generate</li>
+                            </ol>
+                            <p class="small mb-0"><strong>Result:</strong> Horizontal strips showing 5 darker, original, and 5 lighter versions</p>
+                            <img src="swatch-shades.png" alt="Swatch Shades example output" class="img-fluid rounded mt-3">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-header bg-info text-white">
+                            <h5 class="mb-0">💾 Swatch Export</h5>
+                        </div>
+                        <div class="card-body">
+                            <ol class="small">
+                                <li>Select swatches to export</li>
+                                <li>Run <strong>File → Scripts → SwatchExport</strong></li>
+                                <li>Choose formats (JSON, SCSS, CSS, etc.)</li>
+                                <li>Select color format (HEX, RGB, HSL)</li>
+                                <li>Choose save location</li>
+                            </ol>
+                            <p class="small mb-0"><strong>Result:</strong> Color files ready for web development</p>
+                            <img src="swatch-export.png" alt="Swatch Export example output" class="img-fluid rounded mt-3">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-header bg-warning">
+                            <h5 class="mb-0">🔄 Swatch Transfer</h5>
+                        </div>
+                        <div class="card-body">
+                            <ol class="small">
+                                <li>Open multiple Illustrator documents</li>
+                                <li>Make destination document active</li>
+                                <li>Run <strong>File → Scripts → SwatchTransfer</strong></li>
+                                <li>Select source document</li>
+                                <li>Choose replace or duplicate option</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                  <div class="card h-100">
+                      <div class="card-header bg-secondary text-white">
+                          <h5 class="mb-0">📋 Palette Templates</h5>
+                      </div>
+                      <div class="card-body">
+                          <p class="small">Two professionally designed color palette templates included as .AI files:</p>
+                          
+                          <div class="alert alert-light border mb-3">
+                              <p class="small mb-2"><strong>What's Included:</strong></p>
+                              <ul class="small mb-0">
+                                  <li><strong>Bootstrap Colors</strong> - Primary, secondary, success, warning, danger, info</li>
+                                  <li><strong>Hover States</strong> - Interactive state variations for UI elements</li>
+                                  <li><strong>Grayscale Palette</strong> - Complete neutral color range</li>
+                                  <li><strong>Gradient Swatches</strong> - Pre-designed gradients ready to use</li>
+                              </ul>
+                          </div>
+                          
+                          <p class="small mb-2"><strong>Template V1 - Classic Bootstrap</strong></p>
+                          <img src="palette-1.png" alt="Classic palette template with Bootstrap colors" class="img-fluid rounded mb-3">
+                          
+                          <p class="small mb-2"><strong>Template V2 - Extended with Gradients</strong></p>
+                          <img src="palette-v2.png" alt="Extended palette template with gradients" class="img-fluid rounded mb-3">
+                          
+                          <p class="small text-muted mb-0"><em>Simply open these templates in Illustrator and use the Swatch Transfer script to copy colors into your projects!</em></p>
+                      </div>
+                  </div>
+              </div>
+            </div>
+        </section>
+
+        <hr class="my-5">
+
+        <!-- Troubleshooting Section -->
+        <section class="mb-5" id="troubleshooting">
+            <h2 class="mb-4">Troubleshooting</h2>
+            
+            <div class="accordion" id="troubleshootingAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#trouble1">
+                            Script doesn't appear in the menu
+                        </button>
+                    </h2>
+                    <div id="trouble1" class="accordion-collapse collapse show" data-bs-parent="#troubleshootingAccordion">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>Make sure you've restarted Illustrator after copying the script</li>
+                                <li>Verify the file has a <code>.jsx</code> extension, not <code>.jsx.txt</code></li>
+                                <li>Check that the file is in the correct Scripts folder for your version of Illustrator</li>
+                                <li>Try placing the script in the alternative user folder location</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#trouble2">
+                            Script runs but nothing happens
+                        </button>
+                    </h2>
+                    <div id="trouble2" class="accordion-collapse collapse" data-bs-parent="#troubleshootingAccordion">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>Make sure you have an open document with swatches</li>
+                                <li>Select swatches in the Swatches panel before running the script</li>
+                                <li>Check that your first layer isn't locked</li>
+                                <li>Try creating a new document with some basic color swatches</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#trouble3">
+                            Colors don't match exactly
+                        </button>
+                    </h2>
+                    <div id="trouble3" class="accordion-collapse collapse" data-bs-parent="#troubleshootingAccordion">
+                        <div class="accordion-body">
+                            <p>Color conversions between different color spaces (RGB, CMYK, LAB) can result in slight variations. This is normal behavior due to different color gamuts.</p>
+                            <ul>
+                                <li>HEX values are derived from RGB conversions</li>
+                                <li>CMYK to RGB conversions may not be exact reversals</li>
+                                <li>Check your document's color mode (RGB vs CMYK)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#trouble4">
+                            Can't find the Scripts folder
+                        </button>
+                    </h2>
+                    <div id="trouble4" class="accordion-collapse collapse" data-bs-parent="#troubleshootingAccordion">
+                        <div class="accordion-body">
+                            <p><strong>macOS:</strong> The Library folder may be hidden. Hold <kbd>Option</kbd> while clicking the "Go" menu in Finder to see the Library option.</p>
+                            <p><strong>Windows:</strong> You may need to show hidden files and folders:</p>
+                            <ol>
+                                <li>Open File Explorer</li>
+                                <li>Click "View" in the menu</li>
+                                <li>Check "Hidden items"</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="my-5">
+
+        <!-- Output Format Reference -->
+        <section class="mb-5" id="output">
+            <h2 class="mb-4">Swatch Legend Output Format</h2>
+            <p>When using Swatch Legend, each generated swatch displays information in the following format:</p>
+            
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Format Structure</h5>
+                            <div class="color-sample">
+                                <div><strong>[Swatch Name]</strong></div>
+                                <div>HEX #[RRGGBB]</div>
+                                <div>R [0-255] G [0-255] B [0-255]</div>
+                                <div>C [0-100] M [0-100] Y [0-100] K [0-100]</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Example Output</h5>
+                            <div class="color-sample">
+                                <div><strong>Sunset Orange</strong></div>
+                                <div>HEX #FF6B35</div>
+                                <div>R 255 G 107 B 53</div>
+                                <div>C 0 M 58 Y 79 K 0</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final Upgrade CTA -->
+        <section class="my-5">
+            <div class="card border-warning shadow-lg" style="border-width: 3px;">
+                <div class="card-body text-center p-5" style="background: linear-gradient(135deg, #fff8dc 0%, #fff 100%);">
+                    <h2 class="display-5 mb-3">🚀 Ready to Unlock All Features?</h2>
+                    <p class="lead mb-4">Get all 4 professional scripts + 2 templates in the full version</p>
+                    <div class="row justify-content-center mb-4">
+                        <div class="col-md-8">
+                            <ul class="list-unstyled text-start">
+                                <li class="mb-2">✅ <strong>Swatch Legend</strong> - Color legend grids (FREE)</li>
+                                <li class="mb-2">✅ <strong>Swatch Shades</strong> - Tints and shades generator</li>
+                                <li class="mb-2">✅ <strong>Swatch Export</strong> - Export to JSON, SCSS, LESS, CSS</li>
+                                <li class="mb-2">✅ <strong>Swatch Transfer</strong> - Transfer between documents</li>
+                                <li class="mb-2">✅ <strong>2 Professional Templates</strong> - V1 Classic + V2 Extended</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="https://huementsoftware.gumroad.com/l/aiscripts" class="btn btn-warning btn-lg px-5 py-3" target="_blank" rel="noopener" style="font-size: 1.25rem;">
+                        <strong>Get Full Version - $3+ →</strong>
+                    </a>
+                    <p class="text-muted mt-3 mb-0"><small>Name your own price · Instant download · Compatible with Illustrator CC 2019+</small></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="mt-5 pt-4 border-top text-center text-muted">
+            <p class="mb-1"><strong>AI Swatch Scripts v1.0 - FREE Version</strong></p>
+            <p class="mb-1">A Huement Original</p>
+            <p class="mb-2">Copyright © 2025 <a href="https://huement.com" target="_blank">Huement.com</a> - All Rights Reserved</p>
+            <p class="mb-2"><small>This FREE version includes Swatch Legend only. <a href="https://huementsoftware.gumroad.com/l/aiscripts" target="_blank" class="fw-bold">Get full version →</a></small></p>
+            <p class="mb-0"><small>Licensed users may use these scripts for personal or commercial projects. Redistribution prohibited.</small></p>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

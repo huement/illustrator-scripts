@@ -1,0 +1,7 @@
+# Allow all search engines to index this site
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://huement.github.io/illustrator-scripts/sitemap.xml
+
